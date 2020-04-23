@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.kansas {
+  padding: 15px 15px 25px 15px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 2px solid black;
+  margin:10% auto;
+  margin-top:0em;
+  width: 650px;
+  opacity: 1;
+  border-radius: 25px;
+  
+}
+.picture{
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+  margin-left:0%;
+  height:200px;
+  opacity: 1;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background:url(criss-cross.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+}
+
+.keith {
+  padding: 15px 15px 25px 15px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 2px solid black;
+  margin:10% auto;
+  margin-top:0em;
+  width: 650px;
+  opacity: 1;
+  border-radius: 25px;
+}
+.Register {
+  padding: 15px 15px 25px 15px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 2px solid black;
+  margin: 10% auto;
+  margin-top:10px;
+  width: 50%;
+  opacity: 1;
+  border-radius: 25px
+}
+
+.Register .register__title {
+  font-weight: 200;
+  font-size: 32px;
+  color: black;
+  font-style: serif;
+}
+
+.frmlbl {
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  opacity: 10;
+  padding: 0 160px;
+  margin: 0;
+}

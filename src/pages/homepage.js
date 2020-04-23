@@ -4,7 +4,7 @@ import "./../assets/images/portfolio.jpg";
 // import Portfolioimg from "./portfolio";
 import "./../App.css";
 import Portfolio from "./../assets/images/portfolio.jpg";
-export default function index() {
+export default function Homepage() {
 return(
  <div className="kansas">
    <h2>Welcome</h2>

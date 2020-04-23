@@ -1,5 +1,5 @@
 import React from 'react';
-import Index from "./pages/index";
+import Homepage from "./pages/homepage";
 import "./App.css";
 import Portfoliopg from "./pages/portfolio";
 import Nav from "./components/Nav/nav";
@@ -18,10 +18,7 @@ function App() {
       <Nav />
       <div>
         
-        
-
-        
-        <Route exact path="/" component={Index} />
+        <Route exact path="/" component={Homepage} />
         <Route exact path="/portfolio" component={Portfoliopg} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/aboutme" component={About} />

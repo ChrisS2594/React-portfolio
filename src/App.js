@@ -4,7 +4,7 @@ import "./App.css";
 import Portfoliopg from "./pages/portfolio";
 import Nav from "./components/Nav/nav";
 import Contact from "./pages/contact";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import About from "./pages/aboutme";
 import Foot from "./components/foot/foot";
 
